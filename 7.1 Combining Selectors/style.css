@@ -1,0 +1,24 @@
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Child selector */
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant selector */
+.box li {
+    color: blue;
+}
+
+/* Chaining selector */
+li.done {
+    color: seagreen;
+}
+
+/* Combining Combiners Selector */
+ul p.done {
+    font-size: 0.5rem;
+}
