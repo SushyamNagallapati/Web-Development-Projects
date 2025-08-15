@@ -1,0 +1,25 @@
+#header {
+    background-color: black;
+}
+
+.nav .nav-link {
+  color: yellow !important;
+  font-weight: 500;
+}
+
+.nav .nav-link.active {
+  background-color: yellow !important;
+  color: black !important;
+  font-weight: bold;
+}
+
+.hello {
+    color: white;
+    font-weight: 700;
+}
+
+.card-cover {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
